@@ -18,6 +18,6 @@ function compute()
 function updateSlider()
 {
     var display = document.getElementById("rate").value;
-    document.getElementById("sliderRate").value = display;
+    document.getElementById("sliderRate").value = display+'%';
 }
         
