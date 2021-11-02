@@ -1,6 +1,12 @@
 function compute()
 {
     let p = document.getElementById("principal").value;
+    if(p == "" || p <= 0)
+    {
+        alert("Enter a positive number");
+        document.getElementById("principal").focus();
+        return;
+    }
     
     let i = document.getElementById("sliderRate").value;
     
